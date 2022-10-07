@@ -4,9 +4,9 @@ Test repo for students to check that their VSCode/Docker setup is working
 ## How to use
 * Open VSCode
 * Go to View -> Command Palette
-* Start to type in "Remote-Containers: Clone Repository in Container Volume", and select this command as soon as it appears
+* Start to type in "Dev Containers: Clone Repository in Container Volume", and select this command as soon as it appears
 * Enter the repository name: "MPAGS-CPP-2022/test-setup"
-* Select "Create Unique Volume"
+* If given the option, select "Create Unique Volume"
 * Once the dev container has initialised and you can see the content of the cloned repository in the explorer, open a new terminal by going to Terminal -> New Terminal
 * In the terminal issue the command `./runtest`
 * You should see the following output:
